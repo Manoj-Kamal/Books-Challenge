@@ -35,7 +35,7 @@ To Stop the Spider after scraping n number of items I have implemented item pipe
         return item
 ```
 
-To modify the item count edit the CLOSESPIDER_ITEMCOUNT value in the settings.py file
+To modify the item count, edit the CLOSESPIDER_ITEMCOUNT value in the settings.py file
 
 ```
 CLOSESPIDER_ITEMCOUNT = 750 //current value
