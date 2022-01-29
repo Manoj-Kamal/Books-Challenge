@@ -3,8 +3,8 @@
 
 This spider will scrape the first 750 items from books.toscrape.com website using item pipeline and exports the output to Dropbox using API Token for the following fields:
 
-Book Title
-Product Price
+Book Title,
+Product Price,
 Image URL and 
 Book URL
 
