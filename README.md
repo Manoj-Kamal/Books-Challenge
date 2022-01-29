@@ -45,10 +45,12 @@ To Export the Scraped items to the Dropbox, you can use the plugin scrapy-feedex
 
 Install the scrapy-feedexporter-dropbox plugin using the below command
 
+For the Demonstartion, I have used a throwaway account.
+
 ```
 pip install git+https://github.com/scrapy-plugins/scrapy-feedexporter-dropbox.git
 ```
 
-For more details refer to URL : https://github.yuuza.net/scrapy-plugins/scrapy-feedexporter-dropbox
+For more details about the dropbox plugin, please refer the following URL : https://github.yuuza.net/scrapy-plugins/scrapy-feedexporter-dropbox
 
 Happy Scraping!
