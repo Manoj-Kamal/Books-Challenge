@@ -22,7 +22,7 @@ To export the data into a JSON file, please execute the below command:
 scrapy crawl books -o output.json
 ```
 
-To Stop the Spider after scraping n number of items I have implemented item pipeline with below condition. The scrapy will have to process the items which are already in the process of yielding when used without below pipeline and this causes it to yield 10-20 items extra.
+To stop the Spider after scraping n number of items I have implemented item pipeline with below condition. The scrapy will have to process the items which are already in the process of yielding when used without below pipeline and this causes it to yield 10-20 items extra.
 We have to use the below pipeline to Drop the ITEMS right after the 750 items count has reached because the CLOSESPIDER_ITEMCOUNT will not immediately stop/close the spider as soon as the limit is reached. 
 
 ```
